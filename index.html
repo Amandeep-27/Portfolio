@@ -40,6 +40,17 @@
   gtag('config', 'UA-156548645-1');
 </script>
 	
+<script> 
+var myVideo = document.getElementById("video1"); 
+
+function playPause() { 
+  if (myVideo.paused) 
+    myVideo.play(); 
+  else 
+    myVideo.pause(); 
+}
+
+</script>
 </head>
 	
 
@@ -640,7 +651,22 @@
 	</div><br>
             <p>One of my blog post got 20th rank on Google SERP on the Keyword 'Linkedin restricted accounts solution'</p>
           </div>
-        </div>	       
+        </div>	
+
+	<div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+	<h3 class="mb-0">Learning to Code</h3>
+	<div class="subheading mb-3">Traffic Light made using SVG, HTML and CSS</div>
+		  
+	<div style="text-align:center background-color: aqua;"> 
+  		<video id="video1" width="80%">
+  		  <source src="vid/trafficlight.mp4" type="video/mp4">
+ 		</video><br><br>
+  		  <button onclick="playPause()">Play/Pause</button>
+		  </div> <br>
+            <p>I tried to make this Traffic Light animation using SVG, HTML and CSS codes.</p>
+          </div>
+        </div>	  
 
 	
 		
